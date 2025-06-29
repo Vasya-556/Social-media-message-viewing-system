@@ -1,0 +1,221 @@
+:root {
+    --text-color: #052206;
+    --bg-color: #f4fdf4;
+    --primary-color: #34e038;
+    --secondary-color: #83d4ec;
+    --accent-color: #609be7;
+}
+
+.sign-up {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.sign-up input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+}
+
+.sign-up button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.sign-up button:hover {
+    background-color: var(--accent-color);
+}
+
+.sign-up p {
+    color: var(--text-color);
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.sign-in {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.sign-in input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+}
+
+.sign-in button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.sign-in button:hover {
+    background-color: var(--accent-color);
+}
+
+.sign-in p {
+    color: var(--text-color);
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.telegram-connection {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.telegram-connection h2 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.telegram-connection input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+}
+
+.telegram-connection button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 8px 0 16px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.telegram-connection button:hover {
+    background-color: var(--accent-color);
+}
+
+.telegram-connection p {
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar li a:hover {
+    background-color: var(--accent-color);
+}
+
+.home {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.home button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.home button:hover {
+    background-color: var(--accent-color);
+}
+
+.home h2 {
+    margin-top: 20px;
+    color: var(--secondary-color);
+}
+
+.home ul {
+    padding-left: 20px;
+}
+
+.home ul li button {
+    background: none;
+    border: 1px solid var(--secondary-color);
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.home ul li button.selected-chat {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.home table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border: 2px solid var(--secondary-color);
+}
+
+.home th, .home td {
+    border: 1px solid var(--secondary-color);
+    padding: 8px;
+    text-align: left;
+}
+
+.home th {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}

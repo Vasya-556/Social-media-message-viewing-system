@@ -1,0 +1,5 @@
+/env
+/backend/.env
+/backend/*.session
+/backend/*.session*
+/backend/*.db
