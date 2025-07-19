@@ -1,5 +1,5 @@
 # Social media message viewing system
-![](image.png)
+![](screenshot.png)
 
 # Table of contents
 - [Social media message viewing system](#social-media-message-viewing-system)
